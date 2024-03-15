@@ -28,16 +28,35 @@ Download the github repository of MLLM to utils, and download the pre-training w
 
 Train and evaluate models through `utils/main.py`. For example, to train our model on Split CIFAR-10 with 500 fixed-size buffers, and include PureMM as System 2 in the test of the last task, one would execute:
 
-```shell
+```python
 python utils/main.py --model onlinevt --load_best_args --dataset seq-cifar10 --buffer_size 500  --csv_log --with_brain_vit --num_classes 10 --num_workers 12 --kappa 1 --lmbda 0.1 --delta 0.01 --k 5 --with_slow --slow_model PureMM
 ```
 
 To compare training results without System 2, simply run:
-```shell
+```python
 python utils/main.py --model onlinevt --load_best_args --dataset seq-cifar10 --buffer_size 500  --csv_log --with_brain_vit --num_classes 10 --num_workers 12 --kappa 1 --lmbda 0.1 --delta 0.01 --k 5
 ```
 
 More datasets and methods are supported. You can find the available options by running:
 ```shell
 python utils/main.py --help
+```
+
+## Contact
+Please contact us or post an issue if you have any questions.
+
+* Biqing Qi (qibiqing7@gmail.com)
+* Junqi Gao (gjunqi97@gmail.com)
+* Xinquan Chen (xinquanchen0117@gmail.com)
+* Dong Li (arvinlee826@gmail.com)
+
+
+## Citation
+```BibTeX
+@article{qi2024interactive,
+  title={Interactive continual learning: Fast and slow thinking},
+  author={Qi, Biqing and Chen, Xingquan and Gao, Junqi and Liu, Jianxing and Wu, Ligang and Zhou, Bowen},
+  journal={arXiv preprint arXiv:2403.02628},
+  year={2024}
+}
 ```
