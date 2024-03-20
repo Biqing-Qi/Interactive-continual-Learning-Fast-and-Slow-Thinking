@@ -55,7 +55,7 @@ Please contact us or post an issue if you have any questions.
 ```BibTeX
 @article{qi2024interactive,
   title={Interactive continual learning: Fast and slow thinking},
-  author={Qi, Biqing and Chen, Xingquan and Gao, Junqi and Liu, Jianxing and Wu, Ligang and Zhou, Bowen},
+  author={Qi, Biqing and Chen, Xingquan and Gao, Junqi and Li Dong, and Liu, Jianxing and Wu, Ligang and Zhou, Bowen},
   journal={arXiv preprint arXiv:2403.02628},
   year={2024}
 }
