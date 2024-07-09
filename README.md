@@ -53,10 +53,11 @@ Please contact us or post an issue if you have any questions.
 
 ## Citation
 ```BibTeX
-@article{qi2024interactive,
+@inproceedings{qi2024interactive,
   title={Interactive continual learning: Fast and slow thinking},
-  author={Qi, Biqing and Chen, Xingquan and Gao, Junqi and Li Dong, and Liu, Jianxing and Wu, Ligang and Zhou, Bowen},
-  journal={arXiv preprint arXiv:2403.02628},
+  author={Qi, Biqing and Chen, Xinquan and Gao, Junqi and Li, Dong and Liu, Jianxing and Wu, Ligang and Zhou, Bowen},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={12882--12892},
   year={2024}
 }
 ```
